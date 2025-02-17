@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
+
 def load_openfoam_file():
     try:
         with open('fvSolution', 'r') as file:  
