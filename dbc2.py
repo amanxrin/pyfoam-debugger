@@ -15,7 +15,7 @@ def load_openfoam_file():
     except Exception as e:
         messagebox.showerror("Error", f"Failed to load OpenFOAM file: {str(e)}")
 
-# Function to parse OpenFOAM file into a nested dictionary
+
 def parse_openfoam_file(lines):
     parsed_dict = {}
     stack = [parsed_dict]
